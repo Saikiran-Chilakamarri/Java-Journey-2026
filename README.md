@@ -1,2 +1,8 @@
 # Java-Journey-2026
-My java journey from basics to DSA and software development.
+Started : June 2026
+Goal :
+- Learn Java
+- Practice DSA
+- Build projects
+- Get internships
+- Prepare for placement
