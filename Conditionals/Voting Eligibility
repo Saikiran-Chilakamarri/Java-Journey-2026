@@ -1,0 +1,15 @@
+//Voting eligibility checker
+
+public class hello {
+    public static void main(String[] args) {
+        int age = 18;
+
+        if (age >= 18) {
+            System.out.println("Congrats.....");
+            System.out.println("You've became a responsible citizen now");
+        } else {
+            System.out.println("Sorry You aren't eligible to vote");
+
+        }
+    }
+}
