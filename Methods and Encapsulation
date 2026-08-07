@@ -1,4 +1,4 @@
-// code to store the blance that should never return negative values//
+// code to store the blance that should never return negative values
 
 class Bank {
   private String name;
