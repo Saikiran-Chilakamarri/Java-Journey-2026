@@ -1,0 +1,33 @@
+// code to store the blance that should never return negative values//
+
+class Bank {
+  private String name;
+  private int balance;
+  public void setBalance(int n){
+    if( n > 0){
+     this.balance = n;
+    }
+  }
+   public int getBalance(){
+    return balance;
+  }
+  
+  public String setName(String s){
+    this.name = s;
+    return s;
+    }
+}
+public class Solution {
+
+  public static void main(String[]args){
+
+  String name = "Sai kiran";
+  int balance = 220;
+  Bank b = new Bank();
+  b.setBalance(balance);
+  String nam = b.setName(name);
+  System.out.println("Name : "+nam);
+  System.out.println("Balance : "+b.getBalance());
+ 
+  } 
+}
